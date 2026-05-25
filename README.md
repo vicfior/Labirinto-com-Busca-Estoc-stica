@@ -1,11 +1,11 @@
-# 🎯 Busca Estocástica no Labirinto — Simulated Annealing
+# Busca Estocástica no Labirinto — Simulated Annealing
 
 > Projeto desenvolvido para a disciplina de **Análise de Algoritmos e Inteligência Artificial**.
 > Robôs partem do centro de um labirinto e aprendem a encontrar suas saídas usando **Simulated Annealing** — um algoritmo de busca estocástica inspirado no processo físico de recozimento de metais.
 
 <br>
 
-## 📽️ Demonstração
+## Demonstração
 
 A simulação roda diretamente no **Google Colab** e abre uma visualização interativa em nova aba do navegador, com animação fluida a 60fps, controles de Play/Pause/Reset e slider de iteração.
 
@@ -17,7 +17,7 @@ A simulação roda diretamente no **Google Colab** e abre uma visualização int
 
 <br>
 
-## 🚀 Como executar
+## Como executar
 
 **Pré-requisito:** conta Google (para usar o Colab).
 
@@ -29,7 +29,7 @@ A simulação roda diretamente no **Google Colab** e abre uma visualização int
 
 <br>
 
-## 🛠️ Ferramentas e Bibliotecas
+## Ferramentas e Bibliotecas
 
 | Ferramenta | Versão | Uso no projeto |
 |---|---|---|
@@ -47,7 +47,7 @@ A simulação roda diretamente no **Google Colab** e abre uma visualização int
 
 <br>
 
-## 📁 Estrutura do Notebook
+## Estrutura do Notebook
 
 O notebook está organizado em **6 blocos sequenciais**, cada um com responsabilidade única:
 
@@ -79,7 +79,7 @@ Bloco 6 — Visualização Interativa
 
 <br>
 
-## 🗺️ O Labirinto
+## O Labirinto
 
 Representado como uma **matriz N×N de inteiros**:
 
@@ -118,7 +118,7 @@ solucao = [1, 3, 1, 0, 3, 3, 1, 2]
 
 <br>
 
-## 📐 Função Objetivo
+## Função Objetivo
 
 O SA minimiza um **custo** calculado em dois regimes:
 
@@ -141,7 +141,7 @@ d(A, B) = |linhaA − linhaB| + |colunaA − colunaB|
 
 <br>
 
-## 🌡️ O Algoritmo — Simulated Annealing
+## O Algoritmo — Simulated Annealing
 
 Inspirado no processo físico de **recozimento de metais** (Kirkpatrick et al., 1983).
 
@@ -193,7 +193,7 @@ Com `α = 0.9985` e `T₀ = 500`: após 5.000 iterações, `T ≈ 0.08` — abai
 
 <br>
 
-## ⚙️ Parâmetros Configuráveis
+## Parâmetros Configuráveis
 
 ```python
 TAMANHO_GRID      = 90      # dimensão N do labirinto (N×N células)
@@ -209,7 +209,7 @@ MAX_IT = 5000               # máximo de iterações por robô
 
 <br>
 
-## 📊 Complexidade Assintótica
+## Complexidade Assintótica
 
 | Componente | Tempo | Espaço |
 |---|---|---|
@@ -231,7 +231,7 @@ Executado em ~30–60 segundos no Colab.
 
 <br>
 
-## 🚤 A Visualização
+## A Visualização
 
 A animação mostra:
 
@@ -256,7 +256,7 @@ Navegador (nova aba)
 
 <br>
 
-## 📚 Referências
+## Referências
 
 - **Kirkpatrick, S., Gelatt, C. D., & Vecchi, M. P.** (1983). Optimization by Simulated Annealing. *Science*, 220(4598), 671–680. — artigo original do SA
 - **University of Manchester** — An Application of Simulated Annealing to Maze Routing
@@ -266,7 +266,7 @@ Navegador (nova aba)
 
 <br>
 
-## 👩‍💻 Tecnologias
+## Tecnologias
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat&logo=googlecolab&logoColor=white)
